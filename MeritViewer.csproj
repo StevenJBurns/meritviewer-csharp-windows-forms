@@ -65,10 +65,13 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="asssets\" />
+    <Folder Include="asssets\merits\" />
     <Folder Include="models\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="asssets\logos\logo_tr.png" />
+    <None Include="asssets\logos\logo_nc.png" />
+    <None Include="asssets\logos\logo_vs.png" />
     <Content Include="data\application_data.xml" />
   </ItemGroup>
   <ItemGroup>

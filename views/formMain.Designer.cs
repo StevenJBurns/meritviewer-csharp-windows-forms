@@ -35,10 +35,10 @@
       this.listView1 = new System.Windows.Forms.ListView();
       this.label1 = new System.Windows.Forms.Label();
       this.buttonFilterAll = new System.Windows.Forms.Button();
-      this.buttonFilterTR = new System.Windows.Forms.Button();
-      this.buttonFilterNC = new System.Windows.Forms.Button();
-      this.buttonFilterVS = new System.Windows.Forms.Button();
       this.pbxSelectedMerit = new System.Windows.Forms.PictureBox();
+      this.buttonFilterVS = new System.Windows.Forms.Button();
+      this.buttonFilterNC = new System.Windows.Forms.Button();
+      this.buttonFilterTR = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.pbxSelectedMerit)).BeginInit();
       this.SuspendLayout();
       // 
@@ -110,33 +110,6 @@
       this.buttonFilterAll.Text = "button3";
       this.buttonFilterAll.UseVisualStyleBackColor = true;
       // 
-      // buttonFilterTR
-      // 
-      this.buttonFilterTR.Location = new System.Drawing.Point(134, 457);
-      this.buttonFilterTR.Name = "buttonFilterTR";
-      this.buttonFilterTR.Size = new System.Drawing.Size(64, 64);
-      this.buttonFilterTR.TabIndex = 8;
-      this.buttonFilterTR.Text = "button4";
-      this.buttonFilterTR.UseVisualStyleBackColor = true;
-      // 
-      // buttonFilterNC
-      // 
-      this.buttonFilterNC.Location = new System.Drawing.Point(204, 457);
-      this.buttonFilterNC.Name = "buttonFilterNC";
-      this.buttonFilterNC.Size = new System.Drawing.Size(64, 64);
-      this.buttonFilterNC.TabIndex = 9;
-      this.buttonFilterNC.Text = "button5";
-      this.buttonFilterNC.UseVisualStyleBackColor = true;
-      // 
-      // buttonFilterVS
-      // 
-      this.buttonFilterVS.Location = new System.Drawing.Point(274, 457);
-      this.buttonFilterVS.Name = "buttonFilterVS";
-      this.buttonFilterVS.Size = new System.Drawing.Size(64, 64);
-      this.buttonFilterVS.TabIndex = 10;
-      this.buttonFilterVS.Text = "button6";
-      this.buttonFilterVS.UseVisualStyleBackColor = true;
-      // 
       // pbxSelectedMerit
       // 
       this.pbxSelectedMerit.Location = new System.Drawing.Point(430, 124);
@@ -144,6 +117,36 @@
       this.pbxSelectedMerit.Size = new System.Drawing.Size(100, 50);
       this.pbxSelectedMerit.TabIndex = 11;
       this.pbxSelectedMerit.TabStop = false;
+      // 
+      // buttonFilterVS
+      // 
+      this.buttonFilterVS.BackgroundImage = global::SJB.MeritViewer.CSharp.WindowsForms.Properties.Resources.logo_vs;
+      this.buttonFilterVS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.buttonFilterVS.Location = new System.Drawing.Point(274, 457);
+      this.buttonFilterVS.Name = "buttonFilterVS";
+      this.buttonFilterVS.Size = new System.Drawing.Size(64, 64);
+      this.buttonFilterVS.TabIndex = 10;
+      this.buttonFilterVS.UseVisualStyleBackColor = true;
+      // 
+      // buttonFilterNC
+      // 
+      this.buttonFilterNC.BackgroundImage = global::SJB.MeritViewer.CSharp.WindowsForms.Properties.Resources.logo_nc;
+      this.buttonFilterNC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.buttonFilterNC.Location = new System.Drawing.Point(204, 457);
+      this.buttonFilterNC.Name = "buttonFilterNC";
+      this.buttonFilterNC.Size = new System.Drawing.Size(64, 64);
+      this.buttonFilterNC.TabIndex = 9;
+      this.buttonFilterNC.UseVisualStyleBackColor = true;
+      // 
+      // buttonFilterTR
+      // 
+      this.buttonFilterTR.BackgroundImage = global::SJB.MeritViewer.CSharp.WindowsForms.Properties.Resources.logo_tr;
+      this.buttonFilterTR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.buttonFilterTR.Location = new System.Drawing.Point(134, 457);
+      this.buttonFilterTR.Name = "buttonFilterTR";
+      this.buttonFilterTR.Size = new System.Drawing.Size(64, 64);
+      this.buttonFilterTR.TabIndex = 8;
+      this.buttonFilterTR.UseVisualStyleBackColor = true;
       // 
       // frmMain
       // 
