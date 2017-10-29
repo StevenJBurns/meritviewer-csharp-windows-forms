@@ -73,28 +73,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="application\application.cs" />
-    <Compile Include="views\formAbout.cs">
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="views\FormAbout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\formAbout.Designer.cs">
-      <DependentUpon>formAbout.cs</DependentUpon>
+    <Compile Include="views\FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\formMain.cs">
+    <Compile Include="views\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\formMain.Designer.cs">
-      <DependentUpon>formMain.cs</DependentUpon>
+    <Compile Include="views\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\formSettings.cs">
+    <Compile Include="views\FormSettings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\formSettings.Designer.cs">
-      <DependentUpon>formSettings.cs</DependentUpon>
+    <Compile Include="views\FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="views\formMain.resx">
-      <DependentUpon>formMain.cs</DependentUpon>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -12,7 +12,7 @@ namespace SJB.MeritViewer.CSharp.WindowsForms
     {
       Application.EnableVisualStyles();
 
-      Application.Run(new formMain());
+      Application.Run(new frmMain());
 
     }
   }
