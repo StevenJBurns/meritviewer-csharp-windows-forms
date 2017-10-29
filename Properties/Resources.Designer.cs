@@ -83,6 +83,16 @@ namespace SJB.MeritViewer.CSharp.WindowsForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_planetside {
+            get {
+                object obj = ResourceManager.GetObject("logo_planetside", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_tr {
             get {
                 object obj = ResourceManager.GetObject("logo_tr", resourceCulture);

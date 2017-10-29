@@ -35,11 +35,11 @@
       this.listView1 = new System.Windows.Forms.ListView();
       this.label1 = new System.Windows.Forms.Label();
       this.buttonFilterAll = new System.Windows.Forms.Button();
+      this.labelAppHeader = new System.Windows.Forms.Label();
       this.pbxSelectedMerit = new System.Windows.Forms.PictureBox();
       this.buttonFilterVS = new System.Windows.Forms.Button();
       this.buttonFilterNC = new System.Windows.Forms.Button();
       this.buttonFilterTR = new System.Windows.Forms.Button();
-      this.labelAppHeader = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.pbxSelectedMerit)).BeginInit();
       this.SuspendLayout();
       // 
@@ -104,12 +104,24 @@
       // 
       // buttonFilterAll
       // 
+      this.buttonFilterAll.BackgroundImage = global::SJB.MeritViewer.CSharp.WindowsForms.Properties.Resources.logo_planetside;
+      this.buttonFilterAll.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.buttonFilterAll.Location = new System.Drawing.Point(10, 457);
       this.buttonFilterAll.Name = "buttonFilterAll";
       this.buttonFilterAll.Size = new System.Drawing.Size(64, 64);
       this.buttonFilterAll.TabIndex = 7;
-      this.buttonFilterAll.Text = "button3";
       this.buttonFilterAll.UseVisualStyleBackColor = true;
+      // 
+      // labelAppHeader
+      // 
+      this.labelAppHeader.Font = new System.Drawing.Font("Verdana", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelAppHeader.Location = new System.Drawing.Point(10, -2);
+      this.labelAppHeader.Name = "labelAppHeader";
+      this.labelAppHeader.Size = new System.Drawing.Size(894, 57);
+      this.labelAppHeader.TabIndex = 12;
+      this.labelAppHeader.Text = "PlanetSide MeritViewer";
+      this.labelAppHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+      this.labelAppHeader.Click += new System.EventHandler(this.labelAppHeader_Click);
       // 
       // pbxSelectedMerit
       // 
@@ -148,17 +160,6 @@
       this.buttonFilterTR.Size = new System.Drawing.Size(64, 64);
       this.buttonFilterTR.TabIndex = 8;
       this.buttonFilterTR.UseVisualStyleBackColor = true;
-      // 
-      // labelAppHeader
-      // 
-      this.labelAppHeader.Font = new System.Drawing.Font("Verdana", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.labelAppHeader.Location = new System.Drawing.Point(10, 16);
-      this.labelAppHeader.Name = "labelAppHeader";
-      this.labelAppHeader.Size = new System.Drawing.Size(894, 64);
-      this.labelAppHeader.TabIndex = 12;
-      this.labelAppHeader.Text = "PlanetSide MeritViewer";
-      this.labelAppHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-      this.labelAppHeader.Click += new System.EventHandler(this.labelAppHeader_Click);
       // 
       // frmMain
       // 

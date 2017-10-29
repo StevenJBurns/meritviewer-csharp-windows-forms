@@ -124,6 +124,9 @@
   <data name="logo_nc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\asssets\logos\logo_nc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo_planetside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\asssets\logos\logo_planetside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo_tr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\asssets\logos\logo_tr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

@@ -73,6 +73,7 @@
     <None Include="asssets\logos\logo_tr.png" />
     <None Include="asssets\logos\logo_nc.png" />
     <None Include="asssets\logos\logo_vs.png" />
+    <None Include="asssets\logos\logo_planetside.png" />
     <Content Include="data\application_data.xml" />
   </ItemGroup>
   <ItemGroup>
