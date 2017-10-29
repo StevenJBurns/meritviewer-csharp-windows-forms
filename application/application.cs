@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Drawing.Text;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 using SJB.MeritViewer.CSharp.WindowsForms.Views;
-
 
 namespace SJB.MeritViewer.CSharp.WindowsForms
 {
@@ -12,8 +13,11 @@ namespace SJB.MeritViewer.CSharp.WindowsForms
     {
       Application.EnableVisualStyles();
 
+      //InitFont();
+
       Application.Run(new frmMain());
 
     }
+
   }
 }

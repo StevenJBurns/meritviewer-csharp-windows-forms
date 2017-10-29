@@ -63,6 +63,7 @@
   <ItemGroup>
     <None Include="data\application_data.json" />
     <None Include="README.md" />
+    <None Include="Resources\Coalition_v2.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="asssets\merits\" />

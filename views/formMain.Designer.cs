@@ -39,6 +39,7 @@
       this.buttonFilterVS = new System.Windows.Forms.Button();
       this.buttonFilterNC = new System.Windows.Forms.Button();
       this.buttonFilterTR = new System.Windows.Forms.Button();
+      this.labelAppHeader = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.pbxSelectedMerit)).BeginInit();
       this.SuspendLayout();
       // 
@@ -46,27 +47,27 @@
       // 
       this.treeView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-      this.treeView1.Location = new System.Drawing.Point(10, 46);
+      this.treeView1.Location = new System.Drawing.Point(10, 109);
       this.treeView1.Margin = new System.Windows.Forms.Padding(2);
       this.treeView1.Name = "treeView1";
-      this.treeView1.Size = new System.Drawing.Size(380, 406);
+      this.treeView1.Size = new System.Drawing.Size(274, 343);
       this.treeView1.TabIndex = 0;
       this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
       // 
       // labelForTreeView
       // 
-      this.labelForTreeView.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.labelForTreeView.Location = new System.Drawing.Point(10, 12);
+      this.labelForTreeView.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelForTreeView.Location = new System.Drawing.Point(7, 80);
       this.labelForTreeView.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.labelForTreeView.Name = "labelForTreeView";
-      this.labelForTreeView.Size = new System.Drawing.Size(380, 27);
+      this.labelForTreeView.Size = new System.Drawing.Size(277, 27);
       this.labelForTreeView.TabIndex = 1;
       this.labelForTreeView.Text = "Select a Category, Group or Merit Here...";
       this.labelForTreeView.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
       // 
       // buttonSettings
       // 
-      this.buttonSettings.Location = new System.Drawing.Point(705, 517);
+      this.buttonSettings.Location = new System.Drawing.Point(808, 476);
       this.buttonSettings.Name = "buttonSettings";
       this.buttonSettings.Size = new System.Drawing.Size(96, 32);
       this.buttonSettings.TabIndex = 2;
@@ -75,7 +76,7 @@
       // 
       // buttonAbout
       // 
-      this.buttonAbout.Location = new System.Drawing.Point(808, 517);
+      this.buttonAbout.Location = new System.Drawing.Point(808, 514);
       this.buttonAbout.Name = "buttonAbout";
       this.buttonAbout.Size = new System.Drawing.Size(96, 32);
       this.buttonAbout.TabIndex = 3;
@@ -92,18 +93,18 @@
       // 
       // label1
       // 
-      this.label1.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.label1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.label1.Location = new System.Drawing.Point(10, 522);
       this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(380, 27);
+      this.label1.Size = new System.Drawing.Size(274, 27);
       this.label1.TabIndex = 6;
       this.label1.Text = "Filter by Empire or Select All Here...";
       this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
       // 
       // buttonFilterAll
       // 
-      this.buttonFilterAll.Location = new System.Drawing.Point(64, 457);
+      this.buttonFilterAll.Location = new System.Drawing.Point(10, 457);
       this.buttonFilterAll.Name = "buttonFilterAll";
       this.buttonFilterAll.Size = new System.Drawing.Size(64, 64);
       this.buttonFilterAll.TabIndex = 7;
@@ -114,7 +115,7 @@
       // 
       this.pbxSelectedMerit.Location = new System.Drawing.Point(430, 124);
       this.pbxSelectedMerit.Name = "pbxSelectedMerit";
-      this.pbxSelectedMerit.Size = new System.Drawing.Size(100, 50);
+      this.pbxSelectedMerit.Size = new System.Drawing.Size(200, 40);
       this.pbxSelectedMerit.TabIndex = 11;
       this.pbxSelectedMerit.TabStop = false;
       // 
@@ -122,7 +123,7 @@
       // 
       this.buttonFilterVS.BackgroundImage = global::SJB.MeritViewer.CSharp.WindowsForms.Properties.Resources.logo_vs;
       this.buttonFilterVS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-      this.buttonFilterVS.Location = new System.Drawing.Point(274, 457);
+      this.buttonFilterVS.Location = new System.Drawing.Point(220, 457);
       this.buttonFilterVS.Name = "buttonFilterVS";
       this.buttonFilterVS.Size = new System.Drawing.Size(64, 64);
       this.buttonFilterVS.TabIndex = 10;
@@ -132,7 +133,7 @@
       // 
       this.buttonFilterNC.BackgroundImage = global::SJB.MeritViewer.CSharp.WindowsForms.Properties.Resources.logo_nc;
       this.buttonFilterNC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-      this.buttonFilterNC.Location = new System.Drawing.Point(204, 457);
+      this.buttonFilterNC.Location = new System.Drawing.Point(150, 457);
       this.buttonFilterNC.Name = "buttonFilterNC";
       this.buttonFilterNC.Size = new System.Drawing.Size(64, 64);
       this.buttonFilterNC.TabIndex = 9;
@@ -142,17 +143,29 @@
       // 
       this.buttonFilterTR.BackgroundImage = global::SJB.MeritViewer.CSharp.WindowsForms.Properties.Resources.logo_tr;
       this.buttonFilterTR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-      this.buttonFilterTR.Location = new System.Drawing.Point(134, 457);
+      this.buttonFilterTR.Location = new System.Drawing.Point(80, 457);
       this.buttonFilterTR.Name = "buttonFilterTR";
       this.buttonFilterTR.Size = new System.Drawing.Size(64, 64);
       this.buttonFilterTR.TabIndex = 8;
       this.buttonFilterTR.UseVisualStyleBackColor = true;
+      // 
+      // labelAppHeader
+      // 
+      this.labelAppHeader.Font = new System.Drawing.Font("Verdana", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelAppHeader.Location = new System.Drawing.Point(10, 16);
+      this.labelAppHeader.Name = "labelAppHeader";
+      this.labelAppHeader.Size = new System.Drawing.Size(894, 64);
+      this.labelAppHeader.TabIndex = 12;
+      this.labelAppHeader.Text = "PlanetSide MeritViewer";
+      this.labelAppHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+      this.labelAppHeader.Click += new System.EventHandler(this.labelAppHeader_Click);
       // 
       // frmMain
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(915, 561);
+      this.Controls.Add(this.labelAppHeader);
       this.Controls.Add(this.pbxSelectedMerit);
       this.Controls.Add(this.buttonFilterVS);
       this.Controls.Add(this.buttonFilterNC);
@@ -194,5 +207,6 @@
     private System.Windows.Forms.Button buttonFilterNC;
     private System.Windows.Forms.Button buttonFilterVS;
     private System.Windows.Forms.PictureBox pbxSelectedMerit;
+    private System.Windows.Forms.Label labelAppHeader;
   }
 }
