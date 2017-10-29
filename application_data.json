@@ -1,0 +1,16 @@
+{
+  "category" : {
+    "name" : "Weaponry",
+    "groups" : [
+      {"name" : "Anti-Armor", "type" : "Combat", "merits" : [
+        {"name" : "Anti-Armor Qualification", "image" : "AntiArmor1.png", "level" : 1"counters" : 200, "streak" : 2, "empires" : "All"},
+        {"name" : "Anti-Armor Bronze", "image" : "AntiArmor1.png", "level" : 2 "counters" : 200, "streak" : 2, "empires" : "All"},
+        {"name" : "Anti-Armor Silver", "image" : "AntiArmor1.png", "level" : 3 "counters" : 200, "streak" : 2, "empires" : "All"},
+        {"name" : "Anti-Armor Gold", "image" : "AntiArmor1.png", "level" : 4 "counters" : 200, "streak" : 2, "empires" : "All"},
+        {"name" : "Anti-Armor Platinum", "image" : "AntiArmor1.png", "level" : 5 "counters" : 200, "streak" : 2, "empires" : "All"},
+        {"name" : "Anti-Armor Titanium", "image" : "AntiArmor1.png", "level" : 6 "counters" : 200, "streak" : 2, "empires" : "All"},
+        {"name" : "Anti-Armor Auraxium", "image" : "AntiArmor1.png", "level" : 7 "counters" : 200, "streak" : 2, "empires" : "All"}]
+      }
+    ]
+  }
+}
