@@ -1,4 +1,4 @@
-﻿namespace MeritViewer.views
+﻿namespace SJB.MeritViewer.CSharp.WindowsForms.Views
 {
   partial class formMain
   {
@@ -28,9 +28,20 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.components = new System.ComponentModel.Container();
+      this.SuspendLayout();
+      // 
+      // formMain
+      // 
+      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.Text = "formMain";
+      this.ClientSize = new System.Drawing.Size(784, 561);
+      this.MinimumSize = new System.Drawing.Size(320, 240);
+      this.Name = "formMain";
+      this.Padding = new System.Windows.Forms.Padding(4);
+      this.ShowIcon = false;
+      this.Text = "MeritViewer";
+      this.ResumeLayout(false);
+
     }
 
     #endregion
