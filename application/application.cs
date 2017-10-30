@@ -12,11 +12,8 @@ namespace SJB.MeritViewer.CSharp.WindowsForms
   static void Main()
     {
       Application.EnableVisualStyles();
-
-      //InitFont();
-
+      Application.SetCompatibleTextRenderingDefault(false);
       Application.Run(new frmMain());
-
     }
 
   }

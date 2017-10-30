@@ -67,7 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="asssets\merits\" />
-    <Folder Include="models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="asssets\logos\logo_tr.png" />
@@ -78,6 +77,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="application\application.cs" />
+    <Compile Include="models\enumEmpires.cs" />
+    <Compile Include="models\enumGroupType.cs" />
+    <Compile Include="models\classMerit.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
